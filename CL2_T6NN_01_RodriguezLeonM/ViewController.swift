@@ -50,7 +50,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     // Utilitarios
     func mostrarAlerta(mensaje: String) {
-        let alert = UIAlertController(title: "¡Oops!", message: mensaje, preferredStyle: .alert)
+        let alert = UIAlertController(title: "¡Atención!", message: mensaje, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Entendido", style: .default, handler: { action in
         }))
         present(alert, animated: true)
@@ -206,7 +206,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         oCelda.NombreCliente?.text = String(oCliente.nombres!) + " " + String(oCliente.apellidos!)
         oCelda.DniCliente?.text = String(oCliente.dni!)
         oCelda.ServicioCliente?.text = String(oCliente.servicio!)
-        oCelda.TotalPagarCliente?.text = String(oCliente.totalPagar)
+        oCelda.TotalPagarCliente?.text = "Total a pagar: " + String(oCliente.totalPagar)
         return oCelda
     }
     
