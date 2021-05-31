@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29DA5DDE2664033E00DAC971 /* ServicioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA5DDD2664033E00DAC971 /* ServicioModel.swift */; };
+		29DA5DE0266460B600DAC971 /* ClienteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA5DDF266460B600DAC971 /* ClienteTableViewCell.swift */; };
 		29EF49A62663F1CE00BE95B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EF49A52663F1CE00BE95B4 /* AppDelegate.swift */; };
 		29EF49A82663F1CE00BE95B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EF49A72663F1CE00BE95B4 /* SceneDelegate.swift */; };
 		29EF49AA2663F1CE00BE95B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EF49A92663F1CE00BE95B4 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29DA5DDD2664033E00DAC971 /* ServicioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicioModel.swift; sourceTree = "<group>"; };
+		29DA5DDF266460B600DAC971 /* ClienteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClienteTableViewCell.swift; sourceTree = "<group>"; };
 		29EF49A22663F1CE00BE95B4 /* CL2_T6NN_01_RodriguezLeonM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CL2_T6NN_01_RodriguezLeonM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29EF49A52663F1CE00BE95B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29EF49A72663F1CE00BE95B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				29EF49B32663F1D100BE95B4 /* LaunchScreen.storyboard */,
 				29EF49B62663F1D100BE95B4 /* Info.plist */,
 				29EF49AE2663F1CE00BE95B4 /* CL2_T6NN_01_RodriguezLeonM.xcdatamodeld */,
+				29DA5DDD2664033E00DAC971 /* ServicioModel.swift */,
+				29DA5DDF266460B600DAC971 /* ClienteTableViewCell.swift */,
 			);
 			path = CL2_T6NN_01_RodriguezLeonM;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				29EF49AA2663F1CE00BE95B4 /* ViewController.swift in Sources */,
+				29DA5DDE2664033E00DAC971 /* ServicioModel.swift in Sources */,
+				29DA5DE0266460B600DAC971 /* ClienteTableViewCell.swift in Sources */,
 				29EF49A62663F1CE00BE95B4 /* AppDelegate.swift in Sources */,
 				29EF49B02663F1CE00BE95B4 /* CL2_T6NN_01_RodriguezLeonM.xcdatamodeld in Sources */,
 				29EF49A82663F1CE00BE95B4 /* SceneDelegate.swift in Sources */,
